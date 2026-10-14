@@ -11,16 +11,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-/**
- * Atividade 02 - Paginação na livraria.
- * Site: http://books.toscrape.com/
- *
- * Extrai Título e Preço dos 20 livros da página 1, clica em "next", aguarda o
- * carregamento, extrai os 20 livros da página 2 e imprime o total (40).
- *
- * Observação: o texto visível do título é cortado com "..." na vitrine; o título
- * completo está no atributo "title" do link, por isso ele é lido de lá.
- */
+
 class Questao02LivrosPaginacaoTest extends BaseTest {
 
     private static final By LIVROS = By.cssSelector("article.product_pod");
