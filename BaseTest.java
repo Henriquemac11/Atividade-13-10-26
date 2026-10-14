@@ -9,12 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-/**
- * Classe base: abre e fecha o Chrome para cada teste.
- * O Selenium Manager (embutido no Selenium 4) baixa o chromedriver sozinho.
- *
- * Para rodar sem abrir a janela:  mvn test -Dheadless=true
- */
+
 public abstract class BaseTest {
 
     protected WebDriver driver;
