@@ -10,15 +10,6 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 
-/**
- * Atividade 03 - Tabelas HTML.
- * Site: https://the-internet.herokuapp.com/tables
- *
- * Percorre as linhas da "Table 1" (id="table1") e, para os clientes com dívida
- * (coluna "Due") superior a $50.00, imprime Primeiro Nome, Último Nome e Web Site.
- *
- * Colunas da Table 1: 0=Last Name, 1=First Name, 2=Email, 3=Due, 4=Web Site, 5=Action
- */
 class Questao03TabelaDividasTest extends BaseTest {
 
     @Test
