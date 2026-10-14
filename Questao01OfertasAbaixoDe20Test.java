@@ -14,14 +14,6 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 
-/**
- * Atividade 01 - Robô de ofertas no SauceDemo.
- * Site: https://www.saucedemo.com/
- *
- * Faz login (standard_user / secret_sauce), mapeia todos os itens da página
- * inicial, extrai nome e preço de cada um e exibe no console (e salva em
- * ofertas.txt) apenas os produtos que custam menos de $20.00.
- */
 class Questao01OfertasAbaixoDe20Test extends BaseTest {
 
     @Test
